@@ -6,7 +6,7 @@
 		<link rel="shortcut icon" href="ikon.ico" type="image/x-icon" />
 	</head>
 	<body>
-
+		<br><br><br><br><br><br><br><br><br><br>
 		<div class ="signIn">
 			<div class = "column">
 				<h1>Register</h1>
