@@ -1,0 +1,114 @@
+html {
+    background-color: #000000;
+    font-family: 'Constantia', Times, serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #CFCCD1;
+}
+
+a {
+    color: #CFCCD1;
+}
+
+a:hover {
+    color: #412d2d;
+}
+
+#wrapper
+{
+    width: auto;
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #412d2d;
+}
+
+#banner
+{
+    background-image: url(images/CYW4.png);
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    border: 5px solid #312424;    
+    height: 370px;
+
+    
+}
+
+#nav
+{
+    list-style: none;
+}
+
+#nav li
+{
+    font-size: 24px;
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 50px;
+}
+
+#root {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.boxDes {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.boxList{
+    flex-grow: 5;
+}
+
+.boxRoot {
+    display:flex;
+    flex-direction:column;
+    padding:1em;
+    margin: 1em;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.boxNamePoster {
+    display:flex;
+    flex-direction:column;
+}
+
+.boxPosterList {
+    display:flex;
+    flex-direction:row;
+}
+
+.boxName {
+    font-weight:bold;
+    font-size:1.5em;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.boxPoster img, #boxPoster img {
+    width: 250px;
+    padding: 0px 10px 10px 10px;
+}
+
+.boxRight {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+
+

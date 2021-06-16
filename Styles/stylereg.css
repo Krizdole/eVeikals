@@ -1,0 +1,28 @@
+html,body{
+
+    background: #000000;
+    background-image: url(images/regBg.png);
+    font-family: 'Constantia', Times, serif;
+    font-style: normal;
+}
+
+
+.signIn {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.column {
+    background-color: rgb(179, 179, 179);
+    min-height: 300px;
+   
+    width: 300px;
+   
+    overflow-y:auto;
+}
+
+
