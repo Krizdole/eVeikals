@@ -10,8 +10,10 @@ html {
 
 .signIn {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    position: relative;
+    left: 220px;
+    height: 300px; 
+    width: 300px;
     
 }
 
