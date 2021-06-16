@@ -1,0 +1,27 @@
+html {
+    background-image: url(images/regBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Constantia', Times, serif;
+    font-style: normal;
+    color: #000000;
+}
+
+.signIn {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    
+}
+
+.column {
+    background-color: rgb(179, 179, 179);
+    min-height: 300px;
+   
+    width: 300px;
+   
+    overflow-y:auto;
+}
+
+
